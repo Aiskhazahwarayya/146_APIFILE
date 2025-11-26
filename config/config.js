@@ -27,3 +27,4 @@ const production = {
     dialect: process.env.DB_DIALECT
   };
   module.exports = { development, test, production };
+
