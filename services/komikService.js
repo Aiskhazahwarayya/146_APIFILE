@@ -11,8 +11,8 @@ async function createKomik(database, komikData) {
     deskripsi,
     penulis,
     imageType: imageType || null,
-    imageName: imageName || null,
-    imageData: imageData || null,
+    imageNama: imageName || null,
+    ImageData: imageData || null,
   });
 
   return newKomik;
